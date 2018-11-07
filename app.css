@@ -4,16 +4,31 @@ body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
     color: white;
+    margin-top: 10px;
 }
 
 h1 {
     font-family: 'Prata', serif;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 420px;
+    /*margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 420px;*/
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    text-align: center;
+}
+
+@keyframes example {
+    0%   {top:0px;}
+    25%  {top:-10px;}
+    50%  {top:0px;}
 }
 
 img {
+    max-width: auto;
+}
+/*img {
     margin-left: 200px;
 }
 
@@ -26,7 +41,7 @@ ul {
     margin-top: 50px;
     margin-right: 350px;
     margin-left: 350px;
-}
+}*/
 
 a {
     color: white;
@@ -36,4 +51,10 @@ a {
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
