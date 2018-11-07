@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Prata|Roboto');
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Prata', serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 420px;
+}
+
+img {
+    margin-left: 200px;
+}
+
+p {
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+ul {
+    margin-top: 50px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 40px;
+}
